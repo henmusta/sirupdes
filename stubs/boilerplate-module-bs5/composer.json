@@ -1,0 +1,22 @@
+{
+    "name": "yudhaang-code/{module}-module",
+    "type": "laravel-module",
+    "description": "{module} CRUD Laravel Module",
+    "authors": [
+        {
+            "name": "Yudha Angga Wijaya",
+            "email": "work.yudhaanggawijaya@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\{Module}\\": ""
+        }
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "name": "{Module}",
+    "label": "{Module}",
+    "alias": "{module}",
+    "description": "Manage all {modules}",
+    "keywords": ["{module}"],
+    "priority": 0,
+    "providers": ["Modules\\{Module}\\Providers\\{Module}ServiceProvider"],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}
